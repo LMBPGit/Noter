@@ -12,7 +12,7 @@ public class UDPReceive {
     public static void main(String[] args) {
         try {
 
-        // 1. samme port og ip som HVEM!!??!?!
+        // 1. samme port og ip på modtageren
             int recivePort = 7778;
             InetAddress reciveIp = InetAddress.getByName("localhost");
 
